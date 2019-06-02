@@ -4,11 +4,15 @@
 package net.levi.phraseinator;
 
 public class App {
-    public String getGreeting() {
-        return "Hello world.";
-    }
-
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
-    }
+       
+        System.out.println( new Phraseinator().generate());
+        System.out.println( new Phraseinator().generate2());
+        System.out.println( new Phraseinator().generate2());
+        System.out.println( new Phraseinator().generate2());
+        System.out.println( new Phraseinator().generate2());
+        System.out.println( new Phraseinator().generate2());
+        System.out.println( new Phraseinator().generate2());
+        System.out.println( new Phraseinator().generate2());
+    }       
 }
